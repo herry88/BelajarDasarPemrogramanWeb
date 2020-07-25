@@ -74,9 +74,11 @@ header #branding h1{
     margin: 0;
 }
 
+
 header nav{
     float: right;
     margin-top: 10px;
+    /* position: fixed; */
 }
 
 header .highlight, header .list a{
@@ -215,4 +217,49 @@ footer{
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
+}
+
+/*-------------------ACADEMIC -----------------------*/
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/images_section.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 369px;
+}
+.column{
+    flex-direction: column;
+}
+
+.banner-headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+}
+
+.banner-headline h1{
+    font-size: 44.4px;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    text-align: left;
+    cursor: pointer;      
+}
+
+.banner-options{
+    height: 110px;
+    display: flex;
+    padding-top: 192px;
+}
+
+.banner1{
+    flex: 1;
+    background-color: #bf262e;
+    color: white;
+    padding: 20px;
+
 }
