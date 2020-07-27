@@ -247,7 +247,8 @@ footer{
     padding: 0;
     width: 350px;
     text-align: left;
-    cursor: pointer;      
+    cursor: pointer;  
+    padding-top: 0px;    
 }
 
 .banner-options{
@@ -256,10 +257,55 @@ footer{
     padding-top: 192px;
 }
 
-.banner1{
+.banner1, .banner2, .banner3{
     flex: 1;
     background-color: #bf262e;
     color: white;
     padding: 20px;
 
+}
+
+.separator{
+    background-color: transparent;
+    float: right;
+    height: 100px;
+    width: 1px;
+}
+
+#general{
+    display: flex;
+    justify-content: center;
+}
+
+#general section{
+    flex: 2;
+    margin-bottom: 10px;
+}
+
+.widget-title{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.widget-title-text{
+    font-family: OpenSans-Bold;
+    color: black;
+    font-size: 18px;
+}
+
+#container{
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-title-dash{
+    width: 50px;
+    height: 3px;
+    background-color: #bf262e;
+    margin-top: 5px;
+    margin-left: 1px;
 }
