@@ -309,3 +309,36 @@ footer{
     margin-top: 5px;
     margin-left: 1px;
 }
+
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top:auto 0px;
+}
+
+.dark , .img{
+    text-align: center;
+    display: block;
+}
+
